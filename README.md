@@ -20,7 +20,9 @@ For Mac OSX:
 ```
 
 For Linux:
-```sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"```
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+```
 
 __b. Make sure you have Python installed__
 You can check if you already have it by running ```python```, otherwise you can run brew install python ).
