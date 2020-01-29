@@ -1,4 +1,4 @@
-# dark_site
+# Set up a website on the dark web
 
 [Mac/Linux instructions](#mac-or-linux-instructions)
 
