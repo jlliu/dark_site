@@ -4,7 +4,9 @@
 
 [Windows instructions](#windows-instructions)
 
-# Mac or Linux Instructions
+<details>
+	
+<summary> <h1> Mac or Linux Instructions </h1> </summary>
 
 ## Download the Tor Browser
 Install the Tor Browser by downloading here: https://www.torproject.org/download/
@@ -99,6 +101,12 @@ In the Tor browser, you may also notice that inspecting the Tor circuit reveals 
 
 *** After your .onion site is working, please DO NOT close the terminal window where you are running Tor. Please also keep your local web server (the one you created with the command "Python -m SimpleHTTPServer..." running as well - you don't need to restart it for changes you make to the site's HTML to come into effect. ***
 
-# Windows Instructions
+</details>
+
+<details>
+	
+<summary> <h1> Windows </h1> </summary>
 
 [TO DO] Fill in here. maybe we don't even need an entirely different section and can just differentiate the mac/windows instructions at the package installation step. need to confirm whether or not the terminal commands will be different.
+
+</details>
