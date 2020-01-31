@@ -1,14 +1,15 @@
 # Set up a website on the dark web
 
-[Mac/Linux instructions](#mac-or-linux-instructions)
+# [Mac/Linux instructions](#mac-or-linux-instructions)
 
-[Windows instructions](#windows-instructions)
+# [Windows instructions](#windows-instructions)
 
 	
-# Mac or Linux Instructions
+## _Mac or Linux Instructions_ ##
 
 ## Download the Tor Browser
 Install the Tor Browser by downloading here: https://www.torproject.org/download/
+
 ## 1. Open up a terminal/shell and install required libraries.
 
 __a. Install Homebrew:__
@@ -115,7 +116,7 @@ In the Tor browser, you may also notice that inspecting the Tor circuit reveals 
 
 *** After your .onion site is working, please DO NOT close the terminal window where you are running Tor. Please also keep your local web server (the one you created with the command "Python -m SimpleHTTPServer..." running as well - you don't need to restart it for changes you make to the site's HTML to come into effect. ***
 
-# Windows Instructions
+## _Windows Instructions_ ##
 
 ## 1. Install the Tor Browser by downloading [here](https://www.torproject.org/download/).
 
