@@ -81,19 +81,26 @@ vim torrc.sample
 ```
 ii. Search for the section that says “This section is just for location-hidden services”. Find the following lines:
 ```
-# HiddenServiceDir /usr/local/etc/tor/hidden_service/
-# HiddenServicePort 80 127.0.0.1:80
+#HiddenServiceDir /usr/local/var/lib/tor/hidden_service/
+#HiddenServicePort 80 127.0.0.1:80
 ```
-iii. Remove the ```“#”``` to uncomment the lines, and modify them as follows:
+iii. Remove the ```“#”``` to uncomment both of these lines, and modify them as follows:
 ```
-HiddenServiceDir /usr/local/etc/tor/hidden_service/
+HiddenServiceDir /Users/YOUR_ACCOUNT_NAME/Documents/hidden_service
 HiddenServicePort 80 127.0.0.1:8080
 ```
-The path corresponding to ```HiddenServiceDir``` holds the things needed to get your hidden service working, i.e., a public key, a private key, and a hostname (your very own onion site). It should NOT be the directory where you are hosting your website files, as ```HiddenServiceDir``` contains secret information. The port number (in this case, ```8080```) on the line with ```HiddenServicePort``` should correspond with the port that you are using with your python server.
 
-iv. Save your file. In vim, you can do this by hitting esc and then typing ```:wq```.
+The path corresponding to ```HiddenServiceDir``` will hold the things needed to get your hidden service working, i.e., a public key, a private key, and a hostname (your very own onion site).
 
-v. Remove the ```.sample``` extension to the file to make the configuration file effective. While in the directory where ```torrc.sample``` is located, you can rename this file with the ```mv``` command, which can move a file from an old location to a new location (as well as rename it from an original name to a new name).
+It should NOT be the directory where you are hosting your website files, as ```HiddenServiceDir``` contains secret information. The port number (in this case, ```8080```) on the line with ```HiddenServicePort``` should correspond with the port that you are using with your python server.
+
+iv. Create the folder HiddenServiceDir.
+
+You can do this by creating a folder in your documents called ```hidden_service```. You can name it anything, place it anywhere (as long it's not inside where you're hosting your site) - it just needs to match the path that we designate in the ```torrc``` file, as per the previous step.
+
+v. Save your file. In vim, you can do this by hitting esc and then typing ```:wq```.
+
+vi. Remove the ```.sample``` extension to the file to make the configuration file effective. While in the directory where ```torrc.sample``` is located, you can rename this file with the ```mv``` command, which can move a file from an old location to a new location (as well as rename it from an original name to a new name).
 ```
 mv torrc.sample torrc 
 ```
