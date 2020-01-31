@@ -5,8 +5,11 @@
 	
 ## _Mac and Linux Instructions_ ##
 
-### Download the Tor Browser
+### 0. Download the Tor Browser
 Install the Tor Browser by downloading here: https://www.torproject.org/download/
+
+
+### 0.5 Download a text editor ([Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), etc.)
 
 ### 1. Open up a terminal/shell and install required libraries.
 
