@@ -1,16 +1,16 @@
 # Set up a website on the dark web
 
-# [Mac/Linux instructions](#mac-or-linux-instructions)
+# [Mac and Linux instructions](#mac-and-linux-instructions)
 
 # [Windows instructions](#windows-instructions)
 
 	
-## _Mac or Linux Instructions_ ##
+## _Mac and Linux Instructions_ ##
 
-## Download the Tor Browser
+### Download the Tor Browser
 Install the Tor Browser by downloading here: https://www.torproject.org/download/
 
-## 1. Open up a terminal/shell and install required libraries.
+### 1. Open up a terminal/shell and install required libraries.
 
 __a. Install Homebrew:__
 
@@ -34,7 +34,7 @@ __c. Install Tor__
 brew install tor
 ```
 
-## 2. Set up your local web server 
+### 2. Set up your local web server 
 
 __a. Download example code here (https://github.com/jlliu/dark_site) to your computer.__
 
@@ -58,7 +58,7 @@ You can choose a different port number than 8080, but you should remember it for
 
 __d. Check whether your local server is running by opening your favorite web browser and going to localhost:8080. __
 
-## 3. Configure your onion service
+### 3. Configure your onion service
 
 __a. Locate the Tor configuration file:__
 ```
@@ -101,7 +101,7 @@ tor
 ```
 If you encounter an error in the terminal, you may have typed something wrong in the torrc file. Anytime you make changes to the ```torrc``` file, you have to rerun this command by stopping tor using cmd+C, and rerunning ```tor```.
 	
-## 4. View your dark web site!
+### 4. View your dark web site!
 __a. To get the .onion address of your site, run the following:__
 ```
 cat /usr/local/etc/tor/hidden_service/hostname
@@ -116,17 +116,17 @@ In the Tor browser, you may also notice that inspecting the Tor circuit reveals 
 
 *** After your .onion site is working, please DO NOT close the terminal window where you are running Tor. Please also keep your local web server (the one you created with the command "Python -m SimpleHTTPServer..." running as well - you don't need to restart it for changes you make to the site's HTML to come into effect. ***
 
-## _Windows Instructions_ ##
+### _Windows Instructions_ ##
 
-## 1. Install the Tor Browser by downloading [here](https://www.torproject.org/download/).
+### 1. Install the Tor Browser by downloading [here](https://www.torproject.org/download/).
 
-## 2. Download a text editor ([Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), etc.)
+### 2. Download a text editor ([Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), etc.)
 
-## 3. Make sure you have `python` installed
+### 3. Make sure you have `python` installed
 You can check if you already have it by running ```python``` in the Command Prompt, otherwise you can download it from [here](www.python.org/downloads).
 
 
-## 4. Set up your local web server
+### 4. Set up your local web server
 
 __a. Download example code here (https://github.com/jlliu/dark_site) to your computer.__
 
@@ -150,7 +150,7 @@ You can choose a different port number than 8080, but you should remember it for
 
 __d. Check whether your local server is running by opening your favorite web browser and going to localhost:8080. __
 
-## 5. Configure your onion service
+### 5. Configure your onion service
 __a. Locate the Tor configuration file called `torrc`.__
 First, find where you downloaded the Tor Browser bundle. Once in that folder, navigate to `Browser\TorBrowser\Data\Tor\torrc`. Or just look up the `torrc` filename using the Windows search.
 
@@ -171,7 +171,7 @@ iv. Create the `tor` folder inside `C:\Users\YOUR_USERNAME\Documents`, and the `
 
 __c. Re-open the Tor browser in order for changes to take effect! __
 	
-## 4. View your dark web site!
+### 4. View your dark web site!
 __a. To get the .onion address of your site, open the file located at `C:\Users\YOUR_USERNAME\Documents\tor\hidden_service\hostname`.__
 You can use any text editor. This should give you a long, gibberish address ending in .onion.
 
