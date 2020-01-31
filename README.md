@@ -74,6 +74,7 @@ ls
 This tells you the contents of the ```/tor``` folder. You should see a file called ```torrc.sample```. This is a sample Tor configuration file.
 
 __b. Edit the torrc configuration file.__
+
 i. Open the ```torrc.sample``` file with a text editor (here, we will use vim, a way of editing files on the command line).
 ```
 vim torrc.sample
