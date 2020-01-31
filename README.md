@@ -124,7 +124,9 @@ You should be able to see the website you’re hosting at that address. You can 
 
 In the Tor browser, you may also notice that inspecting the Tor circuit reveals that your traffic goes through three unknown relays before your onion service. This is because creating an onion service is effectively using Tor’s anonymizing capabilities to mask your identity as a webhost.
 
-*** After your .onion site is working, please DO NOT close the terminal window where you are running Tor. Please also keep your local web server (the one you created with the command "Python -m SimpleHTTPServer..." running as well - you don't need to restart it for changes you make to the site's HTML to come into effect. ***
+*** After your .onion site is working, please DO NOT close the terminal window where you are running Tor. It will stop your onion service, and re-running it will generate a different .onion site name for you.
+
+Please also keep your local web server (the one you created with the command "Python -m SimpleHTTPServer..." running as well - you don't need to restart it for changes you make to the site's HTML to come into effect. ***
 
 ## _Windows Instructions_ ##
 
@@ -198,4 +200,4 @@ You should be able to see the website you’re hosting at that address. You can 
 
 In the Tor browser, you may also notice that inspecting the Tor circuit reveals that your traffic goes through three unknown relays before your onion service. This is because creating an onion service is effectively using Tor’s anonymizing capabilities to mask your identity as a webhost.
 
-** After your .onion site is working, please keep your local web server (the one you created with the command `python -m SimpleHTTPServer...` running – you don't need to restart it for changes you make to the site's HTML to come into effect. **
+** After your .onion site is working, please keep your local web server running (the one you created with the command `python -m SimpleHTTPServer...` running – you don't need to restart it for changes you make to the site's HTML to come into effect. **
