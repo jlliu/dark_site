@@ -27,16 +27,22 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/i
 
 __b. Make sure you have Python installed__
 You can check if you already have it by running ```python```, otherwise you can run brew install python ).
+
 __c. Install Tor__
 ```
 brew install tor
 ```
 
 ## 2. Set up your local web server 
+
 __a. Download example code here (https://github.com/jlliu/dark_site) to your computer.__
-This will download a folder called “dark_site”, containing an HTML file. Unzip the folder to somewhere you can find easily. 
-__b. In the terminal, navigate to within the ```“dark_site”``` folder.__
+
+This will download a folder called `dark_site`, containing an HTML file. Unzip the folder to somewhere you can find easily. 
+
+__b. In the terminal, navigate to within the ```dark_site``` folder.__
+
 __c. While inside that directory, start a local server by running:__
+
 ```
 python -m SimpleHTTPServer 8080
 ```
@@ -45,6 +51,7 @@ You can choose a different port number than 8080, but you should remember it for
 __d. Check whether your local server is running by opening your favorite web browser and going to localhost:8080. __
 
 ## 3. Configure your onion service
+
 __a. Locate the Tor configuration file:__
 ```
 cd /usr/local/etc/tor
@@ -55,6 +62,7 @@ Try inspecting the contents of the folder with the following command:
 ls
 ```
 This tells you the contents of the ```/tor``` folder. You should see a file called ```torrc.sample```. This is a sample Tor configuration file.
+
 __b. Edit the torrc configuration file.__
 i. Open the ```torrc.sample``` file with a text editor (here, we will use vim, a way of editing files on the command line).
 ```
@@ -114,9 +122,9 @@ You can check if you already have it by running ```python``` in the Command Prom
 
 __a. Download example code here (https://github.com/jlliu/dark_site) to your computer.__
 
-This will download a folder called ```“dark_site”```, containing an HTML file. Unzip the folder to somewhere you can find easily. 
+This will download a folder called ```dark_site```, containing an HTML file. Unzip the folder to somewhere you can find easily. 
 
-__b. In the Command Prompt, navigate to within the ```“dark_site”``` folder.__
+__b. In the Command Prompt, navigate to within the ```dark_site``` folder.__
 
 __c. While inside that directory, start a local server by running:__
 
