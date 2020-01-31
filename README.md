@@ -36,9 +36,9 @@ brew install tor
 
 __a. Download example code here (https://github.com/jlliu/dark_site) to your computer.__
 
-This will download a folder called `dark_site`, containing an HTML file. Unzip the folder to somewhere you can find easily. 
+This will download a folder called `dark_site-master`, containing an HTML file. Unzip the folder to somewhere you can find easily. 
 
-__b. In the terminal, navigate to within the ```dark_site``` folder.__
+__b. In the terminal, navigate to within the ```dark_site-master``` folder.__
 
 __c. While inside that directory, start a local server by running:__
 
