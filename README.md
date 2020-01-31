@@ -109,7 +109,7 @@ tor
 ```
 If you encounter an error in the terminal, you may have typed something wrong in the torrc file. Anytime you make changes to the ```torrc``` file, you have to rerun this command by stopping tor using cmd+C, and rerunning ```tor```.
 
-If done successfully should automatically make a folder called ```hidden_service``` at the path you specified in the ```torrc``` file.
+If done successfully, this command should automatically make a folder called ```hidden_service``` at the path you specified in the ```torrc``` file!
 	
 ### 6. View your dark web site!
 __a. To get the .onion address of your site, run the following:__
