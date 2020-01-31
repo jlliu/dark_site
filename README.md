@@ -46,6 +46,13 @@ __c. While inside that directory, start a local server by running:__
 ```
 python -m SimpleHTTPServer 8080
 ```
+
+Depending on the `python` version you have installed, you might need to run
+```
+python -m http.server 8080
+```
+instead.
+
 You can choose a different port number than 8080, but you should remember it for later!
 
 __d. Check whether your local server is running by opening your favorite web browser and going to localhost:8080. __
@@ -110,7 +117,7 @@ In the Tor browser, you may also notice that inspecting the Tor circuit reveals 
 
 # Windows Instructions
 
-## 1. Install the Tor Browser by downloading here: https://www.torproject.org/download/
+## 1. Install the Tor Browser by downloading [here](https://www.torproject.org/download/).
 
 ## 2. Download a text editor ([Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), etc.)
 
