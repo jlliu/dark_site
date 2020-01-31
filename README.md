@@ -1,8 +1,6 @@
 # Set up a website on the dark web
 
-# [Mac and Linux instructions](#mac-and-linux-instructions)
-
-# [Windows instructions](#windows-instructions)
+# [Mac and Linux instructions](#mac-and-linux-instructions) | [Windows instructions](#windows-instructions)
 
 	
 ## _Mac and Linux Instructions_ ##
