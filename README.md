@@ -116,7 +116,7 @@ In the Tor browser, you may also notice that inspecting the Tor circuit reveals 
 
 *** After your .onion site is working, please DO NOT close the terminal window where you are running Tor. Please also keep your local web server (the one you created with the command "Python -m SimpleHTTPServer..." running as well - you don't need to restart it for changes you make to the site's HTML to come into effect. ***
 
-### _Windows Instructions_ ##
+## _Windows Instructions_ ##
 
 ### 1. Install the Tor Browser by downloading [here](https://www.torproject.org/download/).
 
