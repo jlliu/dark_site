@@ -43,6 +43,7 @@ This will download a folder called `dark_site-master`, containing an HTML file. 
 
 __b. In the terminal, navigate to within the ```dark_site-master``` folder.__
 
+
 __c. While inside that directory, start a local server by running:__
 
 ```
@@ -131,9 +132,14 @@ You can check if you already have it by running ```python``` in the Command Prom
 
 __a. Download example code here (https://github.com/jlliu/dark_site) to your computer.__
 
-This will download a folder called ```dark_site```, containing an HTML file. Unzip the folder to somewhere you can find easily. 
+This will download a folder called ```dark_site-master```, containing an HTML file. Unzip the folder to somewhere you can find easily. 
 
-__b. In the Command Prompt, navigate to within the ```dark_site``` folder.__
+__b. In the Command Prompt, navigate to within the ```dark_site-master``` folder. (There may be two folders called dark_site-master nested in each other, make sure you enter the deepest one.)__
+
+```
+cd C:\Users\YOUR_ACCOUNT_NAME_HERE\Downloads\dark_site-master\dark_site-master
+```
+The above command assumes the folder is in your Downloads, and assumes you should look into the *second* dark_site-master folder nested in the first one.
 
 __c. While inside that directory, start a local server by running:__
 
