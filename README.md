@@ -54,7 +54,7 @@ instead.
 
 You can choose a different port number than 8080, but you should remember it for later!
 
-__d. Check whether your local server is running by opening your favorite web browser and going to localhost:8080. __
+__d. Check whether your local server is running by opening your favorite web browser and going to localhost:8080.__
 
 ### 3. Configure your onion service
 
