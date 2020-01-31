@@ -176,7 +176,9 @@ iii. Save and close the `torrc` file.
 
 iv. Create the `tor` folder inside `C:\Users\YOUR_USERNAME\Documents`, and the `hidden_service` folder inside `C:\Users\YOUR_USERNAME\Documents\tor`, if they don't already exist.
 
-__c. Re-open the Tor browser in order for changes to take effect! __
+__c. Re-open the Tor browser in order for changes to take effect!__
+
+Every time you open the Tor browser, the Tor software starts running, and will make any changes in your configuration file take effect.
 	
 ### 4. View your dark web site!
 __a. To get the .onion address of your site, open the file located at `C:\Users\YOUR_USERNAME\Documents\tor\hidden_service\hostname`.__
