@@ -94,13 +94,11 @@ The path corresponding to ```HiddenServiceDir``` will hold the things needed to 
 
 It should NOT be the directory where you are hosting your website files, as ```HiddenServiceDir``` contains secret information. The port number (in this case, ```8080```) on the line with ```HiddenServicePort``` should correspond with the port that you are using with your python server.
 
-iv. Create the folder HiddenServiceDir.
+Above, we are saying that our ```HiddenServiceDir``` should be in a folder called ```hidden_service``` in your ```Documents``` folder. But this can be anywhere on your computer, as long as it's not your website directory! Remember to change ```YOUR_ACCOUNT_NAME``` to your computer username.
 
-You can do this by creating a folder in your documents called ```hidden_service```. You can name it anything, place it anywhere (as long it's not inside where you're hosting your site) - it just needs to match the path that we designate in the ```torrc``` file, as per the previous step.
+iv. Save your file. In vim, you can do this by hitting esc and then typing ```:wq```.
 
-v. Save your file. In vim, you can do this by hitting esc and then typing ```:wq```.
-
-vi. Remove the ```.sample``` extension to the file to make the configuration file effective. While in the directory where ```torrc.sample``` is located, you can rename this file with the ```mv``` command, which can move a file from an old location to a new location (as well as rename it from an original name to a new name).
+v. Remove the ```.sample``` extension to the file to make the configuration file effective. While in the directory where ```torrc.sample``` is located, you can rename this file with the ```mv``` command, which can move a file from an old location to a new location (as well as rename it from an original name to a new name).
 ```
 mv torrc.sample torrc 
 ```
@@ -110,11 +108,13 @@ Run Tor to configure your Onion service according to your ```torrc``` file.
 tor
 ```
 If you encounter an error in the terminal, you may have typed something wrong in the torrc file. Anytime you make changes to the ```torrc``` file, you have to rerun this command by stopping tor using cmd+C, and rerunning ```tor```.
+
+If done successfully should automatically make a folder called ```hidden_service``` at the path you specified in the ```torrc``` file.
 	
 ### 6. View your dark web site!
 __a. To get the .onion address of your site, run the following:__
 ```
-cat /usr/local/etc/tor/hidden_service/hostname
+cat /Users/YOUR_ACCOUNT_NAME/Documents/hidden_service/hostname
 ```
 This should give you a long, gibberish address ending in .onion.
 
@@ -147,7 +147,7 @@ __b. In the Command Prompt, navigate to within the ```dark_site-master``` folder
 ```
 cd C:\Users\YOUR_ACCOUNT_NAME_HERE\Downloads\dark_site-master\dark_site-master
 ```
-The above command assumes the folder is in your Downloads, and assumes you should look into the *second* dark_site-master folder nested in the first one.
+The above command assumes the folder is in your Downloads, and assumes you should look into the *second* dark_site-master folder nested in the first one. Remember to change ```YOUR_ACCOUNT_NAME``` to your computer username.
 
 __c. While inside that directory, start a local server by running:__
 
