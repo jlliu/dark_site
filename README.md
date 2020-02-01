@@ -1,5 +1,7 @@
 # Set up a website on the dark web
 
+These instructions are a part of a workshop on the dark web, Tor, and the role of art on the dark web. [See slides here](https://docs.google.com/presentation/d/15EjToNoy4DlnsTIm8vOmfok-aYSOzcrd6IY3hJGdYec/edit?usp=sharing).
+
 # [Mac and Linux instructions](#mac-and-linux-instructions) | [Windows instructions](#windows-instructions)
 
 	
