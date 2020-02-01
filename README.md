@@ -135,7 +135,7 @@ Please also keep your local web server (the one you created with the command "Py
 ### 2. Download a text editor ([Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), etc.)
 
 ### 3. Make sure you have `python` installed
-You can check if you already have it by running ```python``` in the Command Prompt, otherwise you can download it from [here](www.python.org/downloads).
+You can check if you already have it by running ```python``` in the Command Prompt, otherwise you can download it from [here](https://www.python.org/downloads).
 
 
 ### 4. Set up your local web server
